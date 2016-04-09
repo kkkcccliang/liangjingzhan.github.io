@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Redirect</title>
+    <script>
+        var href = location.href;
+        location.href += (href.lastIndexOf('/') === href.length - 1) ? 'blog/' : '/blog/';
+    </script>
+</head>
+<body>
+    <div>Redirecting...</div>
+</body>
+</html>
