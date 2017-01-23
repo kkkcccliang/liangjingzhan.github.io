@@ -16,13 +16,17 @@ default_post_title: Untitled
 
 # Comments. Choose one by filling up the information
 comments:
+  # Duoshuo comments
+  duoshuo_shortname: liangjingzhan
+  # 多说分享服务，必须与多说评论同时使用
+  duoshuo_share: true
   # Disqus comments
-  disqus_shortname: httpliangjingzhangithubio
+  # disqus_shortname: httpliangjingzhangithubio
   # Facebook comments
-  facebook:
-    appid:
-    comment_count: 5
-    comment_colorscheme: light
+  # facebook:
+  # appid:
+  #  comment_count: 5
+  #  comment_colorscheme: light
 
 # Google Analytics Tracking ID
 google_analytics:
